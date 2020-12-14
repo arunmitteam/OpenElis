@@ -95,6 +95,7 @@
             <fileset file="${dist}/LICENSE"/>            
             <lib dir="${dist}/lib"/>
         </war>
+    	<copy file="${dist}/openelis.war" todir="/opt/jetty/webapps" overwrite="false"/>
     </target>
 
     <target name="migrationScripts">
